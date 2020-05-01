@@ -1,16 +1,12 @@
-body{
-	background-color: black;
+body {
+  background-color: lightblue;
 }
 
 #tlnav{
 	background-color: transparent;
 }
 
-#logo{
-	background-color: black;
-	width:max-width;
-	height:800px;
-}
+
 #intro{
 	font-family: monospace;
 	padding: 10px;
@@ -76,4 +72,13 @@ hr{
 
 .large-padding-bottom{
 	padding: 20px 0px 100px 0px;
+}
+
+.t-white{
+	color: white;
+}
+.gr-header{
+	background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+	width: max-width;
+	height: auto;
 }

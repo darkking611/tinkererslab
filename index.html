@@ -20,14 +20,13 @@
 	<div>
 		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" data-spy="scroll" id="tlnav">
 			  <a class="navbar-brand" href="#">Tinkerers Lab</a>
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"></span>
-			  </button> 
+			  <a class="w3-bar-item w3-button w3-padding w3-hide-medium w3-hide-large w3-left" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
 
 			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			    <ul class="navbar-nav mr-auto">
+	
 			      <li class="nav-item ">
-			        <a class="nav-link" href="#about">About Us <span class="sr-only">(current)</span></a>
+			        <a class="nav-link" href="#about">About Us</a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="#projects">Projects</a>
@@ -49,16 +48,23 @@
 			      </li>
 			    </ul>
 			  </div>
+
+			  <div id="navDemo" class="w3-bar-block bg-dark w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+			  <a href="#projects" class="nav-link t-white" onclick="myFunction()">Projects</a>
+			  <a href="inventory.html" class="nav-link t-white" onclick="myFunction()">Inventory</a>
+			  <a href="#gallery" class="nav-link t-white" onclick="myFunction()">Gallery</a>
+			  <a href="#teams" class="nav-link t-white" onclick="myFunction()">Team</a>
+			  <a href="#contact" class="nav-link t-white" onclick="myFunction()">Contact Us</a>
+			</div>
 		</nav>
  	</div>
- 	<br>
- 	<br>
-	<div id="logo" class="w3-display-container">
-		
-		<div id="intro" class="w3-display-left">
-			<h2 class="display-4">Welcome to<br> Tinkerers Lab IIT Patna</h2>
-		</div>
-	</div>
+	<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+	  <img class="w3-image" src="main.jpg" alt="Hamburger Catering" width="1600" height="800">
+	  <div class="w3-display-left w3-padding-large">
+    	<h1 class="w3-animate-opacity" style="color: #FF1493;font-size: 6vw;"><b>Tinkerers Lab</b></h1>
+    	<h1 class="w3-animate-opacity" style="color:white;font-size: 2vw;">Where ideas become innovations</h1>
+  	</div>
+</header>
 	<br>
 	<div class="container w3-animate-opacity w3-padding-64"id="about">
 		<h1 class="w3-center display-4">About Us</h1>
@@ -200,39 +206,38 @@
 	<div class="w3-container w3-black w3-padding-64" id="gallery">
 		<h1 class="w3-center display-4">Gallery</h1>
 		<div>
-			<div class ="row">
-				<div class= "col">
-					<img class=" w3-hover-opacity rounded" src="https://picsum.photos/300/250" alt="...">
+			<div class ="w3-row w3-center">
+				<div class= "w3-col l3 m3 s12">
+					<img class=" w3-hover-opacity w3-padding" src="https://picsum.photos/300/250" alt="...">
 				</div>
 
-				<div class= "col">
-					<img class="rounded w3-hover-opacity" src="https://picsum.photos/300/250" alt="...">
+				<div class= "w3-col l3 m3 s12">
+					<img class="w3-hover-opacity w3-padding" src="https://picsum.photos/300/250" alt="...">
 				</div>
 
-				<div class= "col">
-					<img class="rounded w3-hover-opacity" src="https://picsum.photos/300/250" alt="...">
+				<div class= "w3-col l3 m3 s12">
+					<img class="w3-hover-opacity w3-padding" src="https://picsum.photos/300/250" alt="...">
 				</div>
 
-				<div class= "col">
-					<img class="rounded w3-hover-opacity" src="https://picsum.photos/300/250" alt="...">
+				<div class= "s3-col l3 m3 s12">
+					<img class="w3-hover-opacity w3-padding" src="https://picsum.photos/300/250" alt="...">
 				</div>
 			</div>
-			<br>
-			<div class="row">
-				<div class= "col">
-					<img class="rounded w3-hover-opacity" src="https://picsum.photos/300/250" alt="...">
+			<div class="w3-row w3-center">
+				<div class= "w3-col l3 m3 s12">
+					<img class="w3-hover-opacity w3-padding" src="https://picsum.photos/300/250" alt="...">
 				</div>
 
-				<div class= "col">
-					<img class="rounded w3-hover-opacity" src="https://picsum.photos/300/250" alt="...">
+				<div class= "w3-col l3 m3 s12">
+					<img class="w3-hover-opacity w3-padding" src="https://picsum.photos/300/250" alt="...">
 				</div>
 
-				<div class= "col">
-					<img class="rounded w3-hover-opacity" src="https://picsum.photos/300/250" alt="...">
+				<div class= "w3-col l3 m3 s12">
+					<img class="w3-hover-opacity w3-padding" src="https://picsum.photos/300/250" alt="...">
 				</div>
 
-				<div class= "col">
-					<img class="rounded w3-hover-opacity" src="https://picsum.photos/300/250" alt="...">
+				<div class= "w3-col l3 m3 s12">
+					<img class="w3-hover-opacity w3-padding" src="https://picsum.photos/300/250" alt="...">
 				</div>
 			</div>
 		</div>
@@ -248,42 +253,42 @@
 		<div class="row">
 			<div class="col">
 				<img class="thick-border teams" src="https://picsum.photos/300/250" alt="...">
-				<h3>Manoj Kumar</h3>
-				<h3 class="display-5">Coordinator</h3>
+				<h3 class="display-5">Manoj Kumar</h3>
+				<h5 class="display-6">Coordinator</h5>
 			</div>
 	
 			<div class="col">
 				<img class="thick-border teams" src="https://picsum.photos/300/250" alt="...">
-				<h3>Sumit Sourabh</h3>
-				<h3 class="display-5">Coordinator</h3>
+				<h3 class="display-5">Sumit Sourabh</h3>
+				<h5 class="display-6">Coordinator</h5>
 			</div>
 			<div class="col">
 				<img class="thick-border teams" src="https://picsum.photos/300/250" alt="...">
-				<h3>Md.Azam</h3>
-				<h3 class="display-5">Coordinator</h3>
+				<h3 class="display-5">Md.Azam</h3>
+				<h5 class="display-6">Coordinator</h5>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col">
 				<img class="thick-border teams" src="https://picsum.photos/300/250" alt="...">
-				<h3>Akshat Jain</h3>
-				<h3 class="display-5">Sub-Coordinator</h3>
+				<h3 class="display-5">Akshat Jain</h3>
+				<h5 class="display-6">Sub-Coordinator</h5>
 			</div>
 	
 			<div class="col">
 				<img class="thick-border teams" src="https://picsum.photos/300/250" alt="...">
-				<h3>Aayush Shah</h3>
-				<h3 class="display-5">Sub-Coordinator</h3>
+				<h3 class="display-5">Aayush Shah</h3>
+				<h5 class="display-6">Sub-Coordinator</h5>
 			</div>
 			<div class="col">
 				<img class="thick-border teams" src="https://picsum.photos/300/250">
-				<h3>Akash Balaji</h3>
-				<h3 class="display-5">Sub-Coordinator</h3>
+				<h3 class="display-5">Akash Balaji</h3>
+				<h5 class="display-6">Sub-Coordinator</h5>
 			</div>
 			<div class="col">
 				<img class="thick-border teams" src="https://picsum.photos/300/250" alt="..."> 
-				<h3>Harsh Shah</h3>
-				<h3 class="display-5">Sub-Coordinator</h3>
+				<h3 class="display-5">Harsh Shah</h3>
+				<h5 class="display-6">Sub-Coordinator</h5>
 			</div>
 		</div>
 
@@ -294,7 +299,7 @@
 	  <h1 class="display-4">Contact Us</h1>
 	  <div class="container">
 			<p>
-				<b>Address</b>:R426 Block 6, Academic Area, IIT Patna-801103<br>
+				<b>Address</b>:R-426 Block 6, IIT Patna-801103<br>
 				<b>Email Id</b>:tl_office@iitp.ac.in 
 			</p>	
 		</div>
@@ -302,5 +307,27 @@
 	  <i class="fa fa-instagram w3-hover-opacity"></i>
 	  <i class="fa fa-linkedin w3-hover-opacity"></i>
 	</footer>
+
+
+
+	<script type="text/javascript">
+		// Used to toggle the menu on small screens when clicking on the menu button
+		function myFunction() {
+		  var x = document.getElementById("navDemo");
+		  if (x.className.indexOf("w3-show") == -1) {
+		    x.className += " w3-show";
+		  } else { 
+		    x.className = x.className.replace(" w3-show", "");
+		  }
+		}
+
+		// When the user clicks anywhere outside of the modal, close it
+		var modal = document.getElementById('ticketModal');
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+		    modal.style.display = "none";
+		  }
+}
+	</script>
 </body>
 </html>
