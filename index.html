@@ -62,11 +62,11 @@
 			</div>
 		</nav>
  	</div>
-	<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;" id="home">
-	  <img class="w3-image" src="main.jpg" alt="Hamburger Catering" width="1600" height="800">
+	<header class="w3-display-container w3-content w3-wide parallax" style="max-width:1600px;" id="home">
+	  
 	  <div class="w3-display-left w3-padding-large">
     	<h1 class="w3-animate-opacity" style="color: #FF1493;font-size: 6vw;"><b>Tinkerers Lab</b></h1>
-    	<h1 class="w3-animate-opacity" style="color:white;font-size: 2vw;">Where ideas become innovations</h1>
+    	<h1 class="w3-animate-opacity w3-hide-small" style="color:white;font-size: 2vw;">Where ideas become innovations</h1>
   	</div>
 </header>
 	<br>
@@ -205,94 +205,86 @@
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 		</p>
-		<a href="inventory.html">Visit the inventory to know more!!!</a>
+		<div class="w3-center">
+			<a href="inventory.html"><button class="w3-btn w3-round-xxlarge w3-purple">Visit Inventory for complete details</button></a>
+
+		</div>
 	</div>
 	<div class="w3-container w3-black w3-padding-64" id="gallery">
 		<h1 class="w3-center display-4">Gallery</h1>
-		<div>
-			<div class ="w3-row w3-center">
-				<div class= "w3-col l3 m3 s12">
-					<img class=" w3-hover-opacity w3-padding" src="https://picsum.photos/300/250" alt="...">
-				</div>
-
-				<div class= "w3-col l3 m3 s12">
-					<img class="w3-hover-opacity w3-padding" src="https://picsum.photos/300/250" alt="...">
-				</div>
-
-				<div class= "w3-col l3 m3 s12">
-					<img class="w3-hover-opacity w3-padding" src="https://picsum.photos/300/250" alt="...">
-				</div>
-
-				<div class= "s3-col l3 m3 s12">
-					<img class="w3-hover-opacity w3-padding" src="https://picsum.photos/300/250" alt="...">
-				</div>
-			</div>
-			<div class="w3-row w3-center">
-				<div class= "w3-col l3 m3 s12">
-					<img class="w3-hover-opacity w3-padding" src="https://picsum.photos/300/250" alt="...">
-				</div>
-
-				<div class= "w3-col l3 m3 s12">
-					<img class="w3-hover-opacity w3-padding" src="https://picsum.photos/300/250" alt="...">
-				</div>
-
-				<div class= "w3-col l3 m3 s12">
-					<img class="w3-hover-opacity w3-padding" src="https://picsum.photos/300/250" alt="...">
-				</div>
-
-				<div class= "w3-col l3 m3 s12">
-					<img class="w3-hover-opacity w3-padding" src="https://picsum.photos/300/250" alt="...">
-				</div>
-			</div>
-		</div>
+		<div class="mySlides w3-display-container w3-center w3-padding-32">
+	    <img src="https://picsum.photos/300/150" style="width:70%">
+	    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+	      <h3>Los Angeles</h3>
+	      <p><b>We had the best time playing at Venice Beach!</b></p>   
+	    </div>
+	  </div>
+	  <div class="mySlides w3-display-container w3-center w3-padding-32">
+	    <img src="https://picsum.photos/300/150" style="width:70%">
+	    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+	      <h3>New York</h3>
+	      <p><b>The atmosphere in New York is lorem ipsum.</b></p>    
+	    </div>
+	  </div>
+	  <div class="mySlides w3-display-container w3-center w3-padding-32">
+	    <img src="https://picsum.photos/300/150" style="width:70%">
+	    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+	      <h3>Chicago</h3>
+	      <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
+	    </div>
+	  </div>
+	  <div class="w3-center">
+	  <a href="gallery.html"><button class="w3-btn w3-round-xxlarge w3-purple">Full Gallery</button></a>
+	</div>
 	</div>
 
 	<div class="container w3-center w3-padding-64" id="teams">
 		<h1 class="display-4">Team</h1>
 		<div class="w3-center">
-			<img class="thick-border teams" src="https://picsum.photos/300/250" alt="...">
+			<img class="thick-border teams team-pic" src="https://picsum.photos/300/250" alt="..." >
 			<h3 class="display-5">Prof Sudhir Kumar</h3>
 			<h5 class="display-6">PIC Tinkerers Lab</h5>
 		</div>
-		<div class="row">
-			<div class="col">
-				<img class="thick-border teams" src="https://picsum.photos/300/250" alt="...">
-				<h3 class="display-5">Manoj Kumar</h3>
+		
+		<div class="w3-row-padding">
+			<div class="w3-col s4">
+				<img class="thick-border teams team-pic" src="https://picsum.photos/300/250" alt="...">
+				<h3 class="display-5" >Manoj</h3><h3 class="w3-hide-small display-6"> Kumar</h3>
 				<h5 class="display-6">Coordinator</h5>
 			</div>
 	
-			<div class="col">
-				<img class="thick-border teams" src="https://picsum.photos/300/250" alt="...">
-				<h3 class="display-5">Sumit Sourabh</h3>
+			<div class="w3-col s4">
+				<img class="thick-border teams team-pic" src="https://picsum.photos/300/250" alt="...">
+				<h3 class="display-5">Sumit</h3><h3 class="w3-hide-small"> Sourabh</h3>
 				<h5 class="display-6">Coordinator</h5>
 			</div>
-			<div class="col">
-				<img class="thick-border teams" src="https://picsum.photos/300/250" alt="...">
+			<div class="w3-col s4">
+				<img class="thick-border teams team-pic" src="https://picsum.photos/300/250" alt="...">
 				<h3 class="display-5">Md.Azam</h3>
 				<h5 class="display-6">Coordinator</h5>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col">
-				<img class="thick-border teams" src="https://picsum.photos/300/250" alt="...">
-				<h3 class="display-5">Akshat Jain</h3>
-				<h5 class="display-6">Sub-Coordinator</h5>
+		<div class="w3-row-padding">
+			<div class="w3-col s3">
+				<img class="thick-border teams team-pic" src="https://picsum.photos/300/250" alt="...">
+				<h3 class="display-5">Akshat</h3><h3 class="w3-hide-small display-6"> Jain</h3>
+				<h5 class="display-6 w3-hide-small">Sub-Coordinator</h5>
 			</div>
 	
-			<div class="col">
-				<img class="thick-border teams" src="https://picsum.photos/300/250" alt="...">
-				<h3 class="display-5">Aayush Shah</h3>
-				<h5 class="display-6">Sub-Coordinator</h5>
+			<div class="w3-col s3">
+				<img class="thick-border teams team-pic" src="https://picsum.photos/300/250" alt="...">
+				<h3 class="display-5">Aayush</h3><h3 class="w3-hide-small display-6"> Shah</h3>
+				<h5 class="display-6 w3-hide-small">Sub-Coordinator</h5>
 			</div>
-			<div class="col">
-				<img class="thick-border teams" src="https://picsum.photos/300/250">
-				<h3 class="display-5">Akash Balaji</h3>
-				<h5 class="display-6">Sub-Coordinator</h5>
+			<div class="w3-col s3">
+				<img class="thick-border teams team-pic" src="https://picsum.photos/300/250">
+				<h3 class="display-5">Akash</h3><h3 class="w3-hide-small display-6"> Balaji</h3>
+				<h5 class="display-6 w3-hide-small">Sub-Coordinator</h5>
 			</div>
-			<div class="col">
-				<img class="thick-border teams" src="https://picsum.photos/300/250" alt="..."> 
-				<h3 class="display-5">Harsh Shah</h3>
-				<h5 class="display-6">Sub-Coordinator</h5>
+			<div class="w3-col s3">
+				<img class="thick-border teams team-pic" src="https://picsum.photos/300/250" alt="..."> 
+				<h3 class="display-5">Harsh </h3><h3 class="w3-hide-small display-6"> Shah</h3>
+				<h5 class="display-6 w3-hide-small">Sub-Coordinator</h5>
 			</div>
 		</div>
 
@@ -315,6 +307,20 @@
 
 
 	<script type="text/javascript">
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  for (i = 0; i < x.length; i++) {
+		    x[i].style.display = "none";  
+		  }
+		  myIndex++;
+		  if (myIndex > x.length) {myIndex = 1}    
+		  x[myIndex-1].style.display = "block";  
+		  setTimeout(carousel, 4000);    
+		}
 		// Used to toggle the menu on small screens when clicking on the menu button
 		function myFunction() {
 		  var x = document.getElementById("navDemo");

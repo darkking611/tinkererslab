@@ -2,6 +2,20 @@ body {
   background-color: lightblue;
 }
 
+.parallax {
+  /* The image used */
+  background-image: url("main.jpg");
+
+  /* Set a specific height */
+  height: 800px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #tlnav{
 	background-color: transparent;
 }
@@ -81,4 +95,12 @@ hr{
 	background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
 	width: max-width;
 	height: auto;
+}
+
+.team-pic{
+	max-width: 100%;
+}
+
+.team-text{
+	font-size: 2vw;
 }
